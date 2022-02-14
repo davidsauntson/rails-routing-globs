@@ -1,24 +1,13 @@
-# README
+# Tree routes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Using route globbing to get an array of answers for decision trees.
 
-Things you may want to cover:
+## Destructions
 
-* Ruby version
+```sh
+rvm use 3.0.0
+bundle
+bundle exec rails s
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Go to a tree url of your choice, eg [`/trees/scams/100/yes/no/cash/dealer`](http://localhost:3000/trees/scams/100/yes/no/cash/dealer)
